@@ -2,6 +2,10 @@
 
 A simple interface using React and ES6 to diaplay currency conversion rates based on user input, utilizing Uphold's currency exchange data.
 
+## Demo
+
+Check out the live demo [here](https://uphold-fe-challenge.netlify.app/).
+
 ## Technical Details
 
 - React & ES6: Built using React with ES6 features.
