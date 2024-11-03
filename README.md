@@ -1,6 +1,21 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple interface using React and ES6 to diaplay currency conversion rates based on user input, utilizing Uphold's currency exchange data.
+
+## Technical Details
+
+- React & ES6: Built using React with ES6 features.
+- Uphold SDK: Utilizes the [Uphold Javascript SDK](https://uphold.github.io/uphold-sdk-javascript/actions/ticker/get-ticker.html).
+- create-react-app: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Environment Variables
+
+To run this project locally, you need to create a `.env` file in the root directory of the project. This file should contain the following environment variables, which are required to authenticate with the Uphold API:
+
+```
+REACT_APP_CLIENT_ID=your_api_key_here
+REACT_APP_CLIENT_SECRET=your_api_secret_here
+```
 
 ## Available Scripts
 
