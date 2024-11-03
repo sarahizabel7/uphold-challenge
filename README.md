@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Currency Converter App
 
 A simple interface using React and ES6 to diaplay currency conversion rates based on user input, utilizing Uphold's currency exchange data.
 
