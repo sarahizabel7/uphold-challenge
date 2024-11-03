@@ -1,0 +1,35 @@
+.exchange-list-container {
+  min-width: 420px;
+  margin: 0 auto;
+}
+
+.exchange-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+
+.exchange-list-item:last-child {
+  border-bottom: none;
+}
+
+.exchange-list-symbol {
+  display: flex;
+  align-items: center;
+}
+
+.exchange-list-symbol-icon {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.empty-state-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
