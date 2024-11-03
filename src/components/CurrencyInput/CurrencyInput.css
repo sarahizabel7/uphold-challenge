@@ -1,0 +1,47 @@
+.currency-input-container {
+  background-color: #f7f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 8px;
+  min-width: 300px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.currency-input-container-focused {
+  background-color: #e0e4e8;
+}
+
+.currency-input {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: start;
+  outline: none;
+  appearance: none;
+}
+
+.currency-input::placeholder {
+  color: #c7c7c7;
+}
+
+.currency-option {
+  display: flex;
+  align-items: center;
+}
+
+.currency-option-icon {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.currency-input[type="number"]::-webkit-outer-spin-button,
+.currency-input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
