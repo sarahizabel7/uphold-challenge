@@ -1,0 +1,50 @@
+.navbar {
+  height: 64px;
+  padding: 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #49cc68;
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  background-color: #49cc68;
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #49cc68;
+}
